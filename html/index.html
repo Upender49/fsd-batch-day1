@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ProductFlow product management system landing page">
+    <title>ProductFlow | Product Management System</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a class="brand" href="#" aria-label="ProductFlow home">
+            <span class="brand-mark">P</span>
+            ProductFlow
+        </a>
+        <span class="nav-label">Product Management System</span>
+    </header>
+
+    <main class="hero">
+        <section class="hero-content" aria-labelledby="product-title">
+            <p class="eyebrow">Organize. Prioritize. Deliver.</p>
+            <h1 id="product-title">Manage products with clarity and confidence.</h1>
+            <p class="description">
+                ProductFlow brings roadmaps, tasks, product insights, and team
+                progress together in one simple workspace built for better launches.
+            </p>
+            <button class="cta-button" id="getStartedButton" type="button">
+                Get Started
+                <span aria-hidden="true">&rarr;</span>
+            </button>
+            <p class="button-message" id="buttonMessage" aria-live="polite"></p>
+        </section>
+
+        <section class="dashboard-card" aria-label="Product progress preview">
+            <div class="card-heading">
+                <div>
+                    <p class="small-label">Product roadmap</p>
+                    <h2>Summer Release</h2>
+                </div>
+                <span class="status">On Track</span>
+            </div>
+
+            <div class="progress-label">
+                <span>Launch progress</span>
+                <strong>72%</strong>
+            </div>
+            <div class="progress-bar" aria-hidden="true">
+                <span></span>
+            </div>
+
+            <div class="metrics">
+                <div class="metric">
+                    <strong>24</strong>
+                    <span>Features</span>
+                </div>
+                <div class="metric">
+                    <strong>8</strong>
+                    <span>In review</span>
+                </div>
+                <div class="metric">
+                    <strong>15</strong>
+                    <span>Completed</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
